@@ -1,6 +1,8 @@
-# C-Woomer
+# zhl
 
-This is repository is vibe coded by seeing [woomer](https://github.com/coffeeispower/woomer) because it has a problem by not running correctly on my laptop and only show a quarter screen of it so i made it in C. This script is exclusive to Hyprland user as the program needs to request to Hyprland IPC to do dynamic resizing of the window.
+zhl (Zoom-High-Light)
+
+This is a repository that is vibe coded by seeing [woomer](https://github.com/coffeeispower/woomer) because it has a problem by not running correctly on my laptop and only show a quarter screen of it so i made it in C. This script is exclusive to Hyprland user as the program needs to request to Hyprland IPC to do dynamic resizing of the window.
 
 ## Features
 
