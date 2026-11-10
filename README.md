@@ -51,7 +51,7 @@ sudo dnf install cmake gcc raylib-devel grim
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd c-woomer
+cd zhl
 ```
 
 2. Create a build directory:
@@ -72,12 +72,12 @@ make -j$(nproc)
 
 5. Run the application:
 ```bash
-./woomer
+./zhl
 ```
 
 ### Alternative: One-liner build
 ```bash
-mkdir -p build && cd build && cmake .. && make -j$(nproc) && ./woomer
+mkdir -p build && cd build && cmake .. && make -j$(nproc) && ./zhl
 
 ```
 ### Installation
@@ -99,7 +99,7 @@ cmake --install .
 ## Notes
 
 - This application requires a Wayland compositor and the `grim` tool for taking screenshots
-- The application creates a temporary screenshot at `/tmp/woomer_screenshot.png`
+- The application creates a temporary screenshot at `/tmp/zhl_screenshot.png`
 - Make sure you're running on a Wayland session for the screenshot functionality to work
 - Please change the `screenWidth` and `screenHeight` value manually, since raylib can't fetch the monitor size.
 

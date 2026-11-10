@@ -139,12 +139,12 @@ int main(void) {
     const int screenWidth = mon.width;
     const int screenHeight = mon.height;
 
-    // [opt] 2. The window starts HIDDEN so grim can never capture woomer
+    // [opt] 2. The window starts HIDDEN so grim can never capture zhl
     //          itself. It is only shown once the screenshot is in hand.
     SetTraceLogLevel(LOG_WARNING);
     SetConfigFlags(FLAG_WINDOW_UNDECORATED | FLAG_WINDOW_TRANSPARENT |
                    FLAG_VSYNC_HINT | FLAG_WINDOW_HIDDEN);
-    InitWindow(screenWidth, screenHeight, "woomer");
+    InitWindow(screenWidth, screenHeight, "zhl");
     SetWindowPosition(0, 0);
 
     // Load shader
