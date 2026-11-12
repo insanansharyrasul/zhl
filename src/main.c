@@ -1,8 +1,8 @@
 #define _POSIX_C_SOURCE 200809L
+#include "monitor.h"
 #include "raylib.h"
 #include "raymath.h"
 #include "rlgl.h"
-#include "monitor.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/wait.h>
@@ -282,10 +282,12 @@ int main(void) {
                            &spotlight_radius_multiplier, SHADER_UNIFORM_FLOAT);
 
             BeginShaderMode(spotlight_shader);
-            DrawTextureEx(screenshot_texture, (Vector2){0, 0}, 0.0f, 1.0f / px, WHITE);
+            DrawTextureEx(screenshot_texture, (Vector2){0, 0}, 0.0f, 1.0f / px,
+                          WHITE);
             EndShaderMode();
         } else {
-            DrawTextureEx(screenshot_texture, (Vector2){0, 0}, 0.0f, 1.0f / px, WHITE);
+            DrawTextureEx(screenshot_texture, (Vector2){0, 0}, 0.0f, 1.0f / px,
+                          WHITE);
         }
 
         EndMode2D();

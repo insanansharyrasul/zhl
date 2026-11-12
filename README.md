@@ -50,7 +50,7 @@ sudo dnf install cmake gcc raylib-devel grim
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/insanansharyrasul/zhl
 cd zhl
 ```
 
